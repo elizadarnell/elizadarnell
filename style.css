@@ -234,11 +234,12 @@ a:hover {
 
 .portrait-container {
   width: 100%;
-  padding: 20px 40px 20px 80px;
+  padding: 0px 0px 20px 80px;
 
 }
 
 img.portrait {
+  width: 100%;
   margin: 0 auto;
 }
 
