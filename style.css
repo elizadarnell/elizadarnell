@@ -285,6 +285,13 @@ img.portrait {
     font-size: 18px;
   }
 
+  h2 {
+    color: green;
+    font-family: "century-gothic",sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+  }
+
   #work {
     padding-top: 25rem;
   }
