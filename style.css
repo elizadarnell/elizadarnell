@@ -87,13 +87,11 @@ h4 {
 }
 
 #index-gif-container {
-  height: 100vh;
-  width: 60%;
   margin: 0 auto;
 }
 
 .index-gif {
-  width: 45vw;
+  width: 700px;
 }
 
 #index-bottom {
@@ -108,7 +106,9 @@ h4 {
   justify-content: center;
   align-items: center;
   height: 100px;
-  width:100%
+  width:100%;
+  position: fixed;
+  bottom: 60px;
 }
 
 #button {
@@ -126,7 +126,7 @@ h4 {
   width:100%;
   border: 1px solid green;
   border-radius: 20px;
-  margin: 250px 10px 10px 60px;
+  margin: 0px 10px 0px 60px;
 }
 
 #button.work {
@@ -134,7 +134,7 @@ h4 {
   width: 100%;
   border: 1px solid green;
   border-radius: 20px;
-  margin: 250px 60px 10px 10px;
+  margin: 0px 60px 0px 10px;
 }
 
 #index-titles{
@@ -246,4 +246,57 @@ img.portrait {
 .about-paragraph {
   width: 100%;
   padding: 0px 80px 20px 0px;
+}
+
+@media screen and (max-width: 600px) {
+
+  .index-gif {
+    width: 400px;
+    padding-top: 12rem;
+
+  }
+
+  #nav-button {
+    margin:0px 20px 20px 20px;
+  }
+
+  #about {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50rem;
+  gap: 0px;
+  }
+
+  .portrait-container {
+    width: 100%;
+    padding: 0px 20px;
+
+  }
+
+  .about-paragraph {
+    width: 100%;
+    padding: 0px 50px ;
+  }
+
+  h1{
+    /* text-align: center; */
+    font-family: "century-gothic",sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+  }
+
+  #work {
+    padding-top: 25rem;
+  }
+
+  .projects {
+    width: 100%;
+    padding: 0px;
+  }
+
+  img {
+    width: 100%;
+    padding: 30px 30px;
+  }
+
 }
