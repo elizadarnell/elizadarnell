@@ -149,6 +149,19 @@ h4 {
   width: 100%;
   height: 100vh;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  /* gap: 20px; */
+  padding-top: 25vh;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#work-photos {
+  width: 100%;
+  height: 100vh;
+  display: flex;
   flex-direction: column;
   align-items: center;
   /* gap: 20px; */
@@ -160,7 +173,7 @@ h4 {
   display: block;
   position: relative;
   /* margin-left: 10%; */
-  padding: 30px 30px;
+  /* padding: 30px 30px; */
   width: 50%;
 
 }
